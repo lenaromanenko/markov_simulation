@@ -1,2 +1,2 @@
-# markov_simulation
+# Markov Simulation
 Bootcamp Project: "Markov Simulation"
