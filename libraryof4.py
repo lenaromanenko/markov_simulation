@@ -54,3 +54,52 @@ def generate_markov_matrix(df_copy):
     
     return pd.crosstab(df['after'], df['location'], normalize=1)
     
+class Customer:
+    
+    def __init__(self, id, state, transition_mat):
+        self.id = id
+        self.state = state
+        self.transition_mat = transition_mat
+
+    def __repr__(self):
+        """
+        Returns a csv string for that customer.
+        """
+        return f'{self.id};{self.state}'
+
+    def is_active(self):
+        """
+        Returns True if the customer has not reached the checkout
+        for the second time yet, False otherwise.
+        """
+        if self.state == 'checkout':
+             return True 
+        if self.state != 'checkout':
+            return False 
+
+    def next_state(self):
+        """
+        Propagates the customer to the next state
+        using a weighted random choice from the transition probabilities
+        conditional on the current state.
+        Returns nothing.
+        """
+        # Below are just dummy probas for testing purposes
+        #self.state = np.random.choice(['Spices', 'Drinks', 'Fruits', 'Dairy', 'Checkout'], p=[0.2, 0.2, 0.1, 0.2, 0.3])
+
+        dairy_array = self.transition_mat[0,:]
+        drinks_array = self.transition_mat[1,:]
+        entry_array = self.transition_mat[2,:]
+        fruit_array = self.transition_mat[3,:]
+        spices_array = self.transition_mat[4,:]
+
+        if self.state == 'dairy':
+            self.state = np.random.choice(['checkout', 'dairy', 'drinks', 'fruit', 'spices'], p=dairy_array)
+        if self.state == 'drinks':
+            self.state = np.random.choice(['checkout', 'dairy', 'drinks', 'fruit', 'spices'], p=drinks_array)
+        if self.state == 'entry':
+            self.state = np.random.choice(['checkout', 'dairy', 'drinks', 'fruit', 'spices'], p=entry_array)
+        if self.state == 'fruit':
+            self.state = np.random.choice(['checkout', 'dairy', 'drinks', 'fruit', 'spices'], p=fruit_array)
+        if self.state == 'spices':
+            self.state = np.random.choice(['checkout', 'dairy', 'drinks', 'fruit', 'spices'], p=spices_array)
