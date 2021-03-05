@@ -5,6 +5,7 @@ import time
 
 matrix_monday = pd.read_csv('../data/mm_monday.csv', index_col = 0).T
 matrix_monday = np.array(matrix_monday)
+simulated_data = pd.read_csv('../data/sim_c10_till_20.csv', sep=';')
 
 TILE_SIZE = 32
 OFS = 50
@@ -19,7 +20,7 @@ MARKET = """
 #D..DR..RS..SF..F#
 #................#
 #...CC..CC..CC...#
-#................#
+#...CC..CC..CC...#
 #................#
 ##WW##WW##WW##GG##
 """.strip()
@@ -70,6 +71,7 @@ class Customer:
         if direction == 'left':
             newx -= 1
         if self.terrain_map.contents[newy][newx] == '.':
+        #if self.terrain_map.contents[newy] == '.':
             self.x = newx
             self.y = newy
         self.draw(frame)
@@ -175,8 +177,8 @@ if __name__ == "__main__":
         frame = background.copy()
         market.draw(frame)
         
-        customer1.draw(frame)
-        customer2.draw(frame)
+        #customer1.draw(frame)
+        #customer2.draw(frame)
         
         customer1.move('down',frame)
         customer2.move('up',frame)
