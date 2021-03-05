@@ -223,7 +223,8 @@ class SuperMarket:
         """
         Simulates the SuperMarket. Gets initial customers, opening time and closing time from the user
         """
-
+        self.current_state = np.array([])
+        self.total_state = np.array(['timestamp','customer_id','customer_location'])
         #Timing stuff
         self.open_time = pd.to_datetime(open_time,format='%H:%M')
         self.close_time = pd.to_datetime(close_time,format='%H:%M')
