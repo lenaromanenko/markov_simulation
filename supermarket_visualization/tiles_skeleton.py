@@ -5,7 +5,7 @@ import time
 
 matrix_monday = pd.read_csv('../data/mm_monday.csv', index_col = 0).T
 matrix_monday = np.array(matrix_monday)
-simulated_data = pd.read_csv('../data/sim_c10_till_20.csv', sep=';')
+simulated_data = pd.read_csv('../data/sim_c10_till_20.csv', sep=',')
 
 TILE_SIZE = 32
 OFS = 50
