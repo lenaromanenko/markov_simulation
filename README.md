@@ -1,6 +1,6 @@
-<p style="text-align:center"><span style='color:green;background:background color;font-size:40px;font-family:Font;'><strong>Customer Behavior in a Supermarket</strong></span></p>
+<p style="text-align:center"><span style='color:green;font-size:40px'><strong>Customer Behavior in a Supermarket</strong></span></p>
 
-<p style="text-align:center"><span style='color:black;background:background color;font-size:20px;font-family:Font;'>~ A simulation brought to you by ~</span></p>
+<p style="text-align:center"><span style='font-size:20px'>~ A simulation brought to you by ~</span></p>
 
 <img src="http://charterelevator.com/wp-content/uploads/2018/01/four-of-a-kind.png" width="300px" />
 
