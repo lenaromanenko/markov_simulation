@@ -1,10 +1,9 @@
 <h1 align="center", style="color:green"><strong>Customer Behavior in a Supermarket 
-
-<h3 align="center">~ A simulation brought to you by ~</h3>
+<p align="center">~ A simulation brought to you by ~</p>
 
 <img src="http://charterelevator.com/wp-content/uploads/2018/01/four-of-a-kind.png" width="300px" />
 
-<h3 align = "center"><a href="https://github.com/ai-aksoyoglu">@ai-aksoyoglu</a>, <a href="https://github.com/AlphanAksoyoglu">@AlphanAksoyoglu</a>, <a href="https://github.com/pavrmk">@pavrmk</a>, <a href="https://github.com/lenaromanenko">@lenaromanenko</a></h3>
+<p align = "center"><a href="https://github.com/ai-aksoyoglu">@ai-aksoyoglu</a>, <a href="https://github.com/AlphanAksoyoglu">@AlphanAksoyoglu</a>, <a href="https://github.com/pavrmk">@pavrmk</a>, <a href="https://github.com/lenaromanenko">@lenaromanenko</a></p>
 
 
 ---
