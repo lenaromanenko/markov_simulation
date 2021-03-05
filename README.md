@@ -4,11 +4,15 @@
 
 <img src="http://charterelevator.com/wp-content/uploads/2018/01/four-of-a-kind.png" width="300px" />
 
+<h3 align = "center"><a href="https://github.com/ai-aksoyoglu">@ai-aksoyoglu</a>, <a href="https://github.com/AlphanAksoyoglu">@AlphanAksoyoglu</a>, <a href="https://github.com/pavrmk">@pavrmk</a>, <a href="https://github.com/lenaromanenko">@lenaromanenko</a></h3>
+
 
 ---
-<img src="./data/roadmap1.png" style="zoom:50%" />
+![supermarket](https://user-images.githubusercontent.com/50272605/110110499-32cd5b80-7daf-11eb-9e0e-354ed4e48956.png)
 
-__The project involves the following tasks:__
+
+
+<img src="./data/roadmap1.png" style="zoom:50%" />
 
 1. [explore the data](https://krspiced.pythonanywhere.com/chapters/project_markov/data_analysis.html#explore-supermarket-data) (includes `pandas` wrangling)
 2. [calculate transition probabilities](https://krspiced.pythonanywhere.com/chapters/project_markov/markov_chain/README.html#transition-probs) (a 5x5 matrix)
@@ -19,28 +23,9 @@ __The project involves the following tasks:__
 Extra:
 
 - [fill the shelves of a supermarket image](https://krspiced.pythonanywhere.com/chapters/project_markov/numpy/README.html#fill-shelves)
-- [clean up your code](https://krspiced.pythonanywhere.com/chapters/project_markov/python_code_style/pep8_code_style.html#pylint-ex)
-=======
-# Markov Simulation
-Bootcamp Project: "Markov Simulation"
 
-Project by: [@ai-aksoyoglu](https://github.com/ai-aksoyoglu), [@AlphanAksoyoglu](https://github.com/AlphanAksoyoglu), [@pavrmk](https://github.com/pavrmk), [@lenaromanenko](https://github.com/lenaromanenko)
+- [clean up your code](https://krspiced.pythonanywhere.com/chapters/project_markov/python_code_style/pep8_code_style.html#pylint-ex)  
 
-# Description:
-The project simulates customer behaviour at the supermarket. 
-
-![supermarket](https://user-images.githubusercontent.com/50272605/110110499-32cd5b80-7daf-11eb-9e0e-354ed4e48956.png)
-
-# Goals:
-
-1. Exploratory Analysis
-2. Calculate transition probabilities
-3. Simulate customers
-4. Animated vizualization
-
-# To Do:
-
-1. Fix bugs
+  
 
 
->>>>>>> cc8a844a3d3b8b018847f1abc579bd185ee50693
