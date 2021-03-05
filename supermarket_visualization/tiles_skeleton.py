@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import cv2
+import time
 
 matrix_monday = pd.read_csv('../data/mm_monday.csv', index_col = 0).T
 matrix_monday = np.array(matrix_monday)
@@ -57,7 +58,7 @@ class Customer:
         frame[ypos-32:ypos, xpos-32:xpos] = self.image 
         # overlay the Customer image / sprite onto the frame
 
-    def move(self, direction):
+    def move(self, direction, frame):
         newx = self.x
         newy = self.y
         if direction == 'up':
@@ -71,6 +72,7 @@ class Customer:
         if self.terrain_map.contents[newy][newx] == '.':
             self.x = newx
             self.y = newy
+        self.draw(frame)
 
     def is_active(self):
         """
@@ -175,10 +177,10 @@ if __name__ == "__main__":
         
         customer1.draw(frame)
         customer2.draw(frame)
-
-        customer1.move('down')
-        customer2.move('up')
-
+        
+        customer1.move('down',frame)
+        customer2.move('up',frame)
+        time.sleep(1)
         cv2.imshow("frame", frame) # the cv2.imshow() method is what’s actually displaying each frame on the screen
 
         key = chr(cv2.waitKey(1) & 0xFF)
