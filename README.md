@@ -1,5 +1,6 @@
 # Markov Simulation
 Bootcamp Project: "Markov Simulation"
+
 Project by: [@ai-aksoyoglu](https://github.com/ai-aksoyoglu), [@AlphanAksoyoglu](https://github.com/AlphanAksoyoglu), [@pavrmk](https://github.com/pavrmk), [@lenaromanenko](https://github.com/lenaromanenko)
 
 # Description:
