@@ -1,7 +1,7 @@
 <div>
 <div><align = "center">
     <span style='color:green;font-size:40px'><strong>Customer Behavior in a Supermarket</strong></span>
-    <br><align = "center"> A simulation brought to you by <br><img src="https://a.slack-edge.com/production-standard-emoji-assets/13.0/google-medium/2665-fe0f.png"></br> 
+    <br><align = "center"> A simulation brought to you by <br></br> 
         <br>♥️ ♠️ ♣️ ♦️ Four of a Kind</br>
 </align>
 </div>
