@@ -1,6 +1,7 @@
 <div>
 <div><align = "center">
     <span style='color:green;font-size:40px'><strong>Customer Behavior in a Supermarket</strong></span>
+    <br>
     <br><align = "center"> A simulation brought to you by ♥️ ♠️ ♣️ ♦️ Four of a Kind:<br></br> 
 </align>
 </div>
