@@ -6,6 +6,8 @@ Project by: [@ai-aksoyoglu](https://github.com/ai-aksoyoglu), [@AlphanAksoyoglu]
 # Description:
 The project simulates customer behaviour at the supermarket. 
 
+![supermarket](https://user-images.githubusercontent.com/50272605/110110499-32cd5b80-7daf-11eb-9e0e-354ed4e48956.png)
+
 # Goals:
 
 1. Exploratory Analysis
