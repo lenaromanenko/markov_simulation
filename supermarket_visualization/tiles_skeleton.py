@@ -57,6 +57,21 @@ class Customer:
         frame[ypos-32:ypos, xpos-32:xpos] = self.image 
         # overlay the Customer image / sprite onto the frame
 
+    def move(self, direction):
+        newx = self.x
+        newy = self.y
+        if direction == 'up':
+            newy -= 1
+        if direction == 'down':
+            newy += 1
+        if direction == 'right':
+            newx += 1
+        if direction == 'left':
+            newx -= 1
+        if self.terrain_map.contents[newy][newx] == '.':
+            self.x = newx
+            self.y = newy
+
     def is_active(self):
         """
         Returns True if the customer has not reached the checkout
@@ -140,6 +155,7 @@ class SupermarketMap:
         """writes the image into a file"""
         cv2.imwrite(filename, self.image)
 
+
 if __name__ == "__main__":
 
     background = np.zeros((700, 1000, 3), np.uint8)
@@ -159,6 +175,9 @@ if __name__ == "__main__":
         
         customer1.draw(frame)
         customer2.draw(frame)
+
+        customer1.move('down')
+        customer2.move('up')
 
         cv2.imshow("frame", frame) # the cv2.imshow() method is what’s actually displaying each frame on the screen
 
