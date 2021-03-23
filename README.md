@@ -1,6 +1,6 @@
 ## Markov Simulation
 
-This project simulates a customer behaviour in a supermarket based on Markov Chain. The project has been developed in collaboration with 
+This project simulates a customer behavior in a supermarket based on Markov Chain. The project has been developed in collaboration with 
 <a href="https://github.com/ai-aksoyoglu">@ai-aksoyoglu</a>, <a href="https://github.com/AlphanAksoyoglu">@AlphanAksoyoglu</a> and <a href="https://github.com/pavrmk">@pavrmk</a> and involves the following steps:
 
 ### 1. Exploring the data (includes pandas wrangling)
