@@ -1,12 +1,13 @@
-<div>
-<div><align = "center">
-    <span style='color:green;font-size:40px'><strong>Customer Behavior in a Supermarket</strong></span>
-    <br>
-    <br><align = "center"> A simulation brought to you by ♥️ ♠️ ♣️ ♦️ Four of a Kind:<br></br> 
-</align>
-</div>
+## Markov Simulation
 
-<p align = "left"><a href="https://github.com/ai-aksoyoglu">@ai-aksoyoglu</a> <a href="https://github.com/AlphanAksoyoglu">@AlphanAksoyoglu</a>  
-<a href="https://github.com/pavrmk">@pavrmk</a>  
-<a href="https://github.com/lenaromanenko">@lenaromanenko</a></p>
-<img src="https://user-images.githubusercontent.com/50272605/110110499-32cd5b80-7daf-11eb-9e0e-354ed4e48956.png" />
+This project simulates a customer behaviour in a supermarket based on Markov Chain. The project has been developed in collaboration with 
+<a href="https://github.com/ai-aksoyoglu">@ai-aksoyoglu</a>, <a href="https://github.com/AlphanAksoyoglu">@AlphanAksoyoglu</a> and <a href="https://github.com/pavrmk">@pavrmk</a> and involves the following steps:
+
+### 1. Exploring the data (includes pandas wrangling)
+### 2. Calculating transition probabilities (a 5x5 matrix)
+<img src= "https://github.com/lenaromanenko/markov_simulation/blob/main/images/readme_file_images/weekly_markov_matrix.png"/>
+
+### 3. Creating a customer class and implementing MCMC for one customer
+### 4. Creating a supermarket class that simulates multiple customers
+### 5. Filling the shelves of a supermarket image and visualizing the supermarket
+<img src= "https://github.com/lenaromanenko/markov_simulation/blob/main/images/readme_file_images/supermarket_before_after.png"/>
