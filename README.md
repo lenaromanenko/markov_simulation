@@ -5,6 +5,8 @@ This project simulates a customer behaviour in a supermarket based on Markov Cha
 
 ### 1. Exploring the data (includes pandas wrangling)
 See the notebook in [/data_exploration](https://github.com/lenaromanenko/markov_simulation/tree/main/data_exploration) 
+<img src="https://github.com/lenaromanenko/markov_simulation/blob/main/images/readme_file_images/customer_number_over_time.png" />
+
 ### 2. Calculating transition probabilities (a 5x5 matrix)
 See the notebooks in [/transition_probas](https://github.com/lenaromanenko/markov_simulation/tree/main/transition_probas) 
 <img src= "https://github.com/lenaromanenko/markov_simulation/blob/main/images/readme_file_images/weekly_markov_matrix.png"/>
